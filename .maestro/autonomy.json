@@ -1,0 +1,20 @@
+{
+  "level": "pr-only",
+  "schedule": "0 */6 * * *",
+  "timeBudget": 900,
+  "qualityGates": [
+    "test"
+  ],
+  "branches": {
+    "base": "main",
+    "prefix": "maestro/"
+  },
+  "github": {
+    "prLabels": [
+      "maestro"
+    ],
+    "draftByDefault": false
+  },
+  "skipDays": [],
+  "maxSessionsPerDay": 6
+}
